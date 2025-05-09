@@ -30,19 +30,29 @@ Place the trained model file (resnet_dense_model_30_epochs (1).h5) in the models
 
 ## Usage
 - Run the application:
-```streamlit run src/app.py```
+- ```streamlit run src/app.py```
 - Open the application in your browser at http://localhost:8501.
-http://localhost:8501.
 - Upload an MRI image and view the prediction results.
 
 ## Project Structure
-BrainTumorDetection/
+BRAIN_TUMOUR/
 ├── models/
-│   └── resnet_dense_model_30_epochs (1).h5  # Trained model
+│   └── resnet_dense_model_30_epochs (1).h5
 ├── src/
-│   └── app.py                              # Main application file
-├── requirements.txt                        # Python dependencies
-└── README.md                               # Project documentation
+│   └── app.py
+├── test_images/
+│   ├── glioma.png
+│   ├── pituitary.png
+│   ├── notumor.png
+│   └── meningioma.png
+├── tumor_env/
+│   ├── etc
+│   ├── Include
+│   ├── Lib
+│   ├── Scripts
+│   ├── share
+│   └── pyvenv.cfg
+└── requirements.txt
 
 ## Screenshots
 1. Interface Without Upload
