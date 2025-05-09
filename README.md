@@ -3,16 +3,16 @@
 ## This project is a web-based application for detecting brain tumors using a Convolutional Neural Network (CNN) model. The application allows users to upload MRI images and predicts the type of tumor (if any) with confidence scores.
 
 ## Features
-### **Upload MRI Images**: Users can upload MRI scans in .jpg, .jpeg, or .png formats.
-### **Tumor Type Prediction**: The app predicts the type of brain tumor (e.g., glioma, meningioma, pituitary tumor, or no tumor).
-### **Confidence Score**: Displays the confidence level of the prediction.
-### **User-Friendly Interface**: A clean and intuitive interface built with Streamlit.
+- ### **Upload MRI Images**: Users can upload MRI scans in .jpg, .jpeg, or .png formats.
+- ### **Tumor Type Prediction**: The app predicts the type of brain tumor (e.g., glioma, meningioma, pituitary tumor, or no tumor).
+- ### **Confidence Score**: Displays the confidence level of the prediction.
+- ### **User-Friendly Interface**: A clean and intuitive interface built with Streamlit.
 
 ## Technologies Used
-### **Frontend**: Streamlit for the web interface.
-### **Backend**: TensorFlow and Keras for the deep learning model.
-### **Model**: Pre-trained ResNet50 for feature extraction and a custom dense layer for classification.
-### **Languages**: Python.
+- ### **Frontend**: Streamlit for the web interface.
+- ### **Backend**: TensorFlow and Keras for the deep learning model.
+- ### **Model**: Pre-trained ResNet50 for feature extraction and a custom dense layer for classification.
+- ### **Languages**: Python.
 
 ## Installation
 Clone the repository:
