@@ -35,6 +35,7 @@ Place the trained model file (resnet_dense_model_30_epochs (1).h5) in the models
 - Upload an MRI image and view the prediction results.
 
 ## Project Structure
+```
 BRAIN_TUMOUR/
 ├── models/
 │   └── resnet_dense_model_30_epochs (1).h5
@@ -53,7 +54,7 @@ BRAIN_TUMOUR/
 │   ├── share
 │   └── pyvenv.cfg
 └── requirements.txt
-
+```
 ## Screenshots
 1. Interface Without Upload
 ![Screenshot 2025-05-09 103232](https://github.com/user-attachments/assets/496424a0-a20a-4624-b336-c1bf808f45c6)
